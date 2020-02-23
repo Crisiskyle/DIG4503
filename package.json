@@ -1,23 +1,19 @@
 {
-  "name": "dig4503",
+  "name": "lab6",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Crisiskyle/DIG4503.git"
+    "start": "concurrently \"nodemon index.js\" \"npm:build\"",
+    "build": "cd client && npm run build"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Crisiskyle/DIG4503/issues"
-  },
-  "homepage": "https://github.com/Crisiskyle/DIG4503#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "description": ""
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json-pokemon": "^1.0.0",
+    "nodemon": "^2.0.2"
+  }
 }

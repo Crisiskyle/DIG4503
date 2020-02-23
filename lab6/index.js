@@ -1,12 +1,14 @@
+  
 const Express = require("express");
 const App = Express();
 const port = 80;
 const pokemon = require('json-pokemon');
 const chalk = require("chalk");
+const cors = require("cors");
 
+App.use(cors());
+App.use("/",Express.static("client/build"));
 
-
-App.use("/public",Express.static("public"));
 
 //find id in pokemon array
 App.get("/id/:id", function(req, res){
