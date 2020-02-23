@@ -1,4 +1,3 @@
-
 const Express = require("express");
 const App = Express();
 const port = 80;
@@ -9,7 +8,7 @@ const cors = require("cors");
 App.use(cors());
 App.use("/",Express.static("client/build"));
 
-//find id in pokemon array
+
 App.get("/pokemon/id/:id", function(req, res){
     let result = {"error":"404 thing not found"};
 
@@ -32,7 +31,7 @@ App.get("/pokemon/id/:id", function(req, res){
 
 
 
-//find name in pokemon array
+
 App.get("/pokemon/name/:name", function(req, res){
     let result = {"error":"404 thing not found"};
     
@@ -53,15 +52,16 @@ App.get("/pokemon/name/:name", function(req, res){
 });
 
 
-//console log when request is made on the server 
+ 
 App.get("/", function(req, res){
     console.log("Got a request");
     res.json();
  });
 
 
- //listen on port 80 
+ 
 App.listen(port, function(){
-    console.log("server running");
+    console.log("server is  running");
    } 
+
 );
