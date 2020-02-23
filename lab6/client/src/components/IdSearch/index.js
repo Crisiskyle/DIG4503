@@ -1,12 +1,12 @@
 import React from "react";
 
-    class IdSearch extends React.Component {
+    class NameSearch extends React.Component {
 
-         readScore(event) {
+         readName(event) {
             event.preventDefault();
-            let element = document.querySelector("#id");
+            let element = document.querySelector("#name");
 
-            fetch("http://localhost:80/pokemon/id/" + element.value)
+            fetch("http://localhost:80/pokemon/name/" + element.value)
             .then((res) => {
                 return res.json();
             })
@@ -16,7 +16,7 @@ import React from "react";
                 if(processed.error) {
                     reporting.innerHTML = processed.error;
                 } else {
-                    reporting.innerHTML = processed.name;
+                    reporting.innerHTML = processed.id;
                 }
 
             });
@@ -27,9 +27,9 @@ import React from "react";
         render() {
             return(
                 <div>
-                    <h2>Pokemon Id</h2>
-                    <form onSubmit={this.readScore}>
-                        <input id="id" type="text" />
+                    <h2>Pokemon Name</h2>
+                    <form onSubmit={this.readName}>
+                        <input id="name" type="text" />
                         <button>Submit</button>
                     </form>
                 </div>
@@ -37,4 +37,4 @@ import React from "react";
             }
         }
 
-export default IdSearch;
+        export default NameSearch;

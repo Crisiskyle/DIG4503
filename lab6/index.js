@@ -1,4 +1,4 @@
-  
+
 const Express = require("express");
 const App = Express();
 const port = 80;
@@ -9,10 +9,9 @@ const cors = require("cors");
 App.use(cors());
 App.use("/",Express.static("client/build"));
 
-
 //find id in pokemon array
-App.get("/id/:id", function(req, res){
-    let result = {"error":"Not able to find ID of Pokemon"};
+App.get("/pokemon/id/:id", function(req, res){
+    let result = {"error":"404 thing not found"};
 
     pokemon.forEach((value)=>{
         if(value.id == req.params.id){
@@ -33,9 +32,9 @@ App.get("/id/:id", function(req, res){
 
 
 
-//Find name in pokemon in segment 
-App.get("/name/:name", function(req, res){
-    let result = {"error":"Not able to find Name of Pokemon"};
+//find name in pokemon array
+App.get("/pokemon/name/:name", function(req, res){
+    let result = {"error":"404 thing not found"};
     
     pokemon.forEach((value)=>{
         if(value.name == req.params.name){
@@ -54,16 +53,15 @@ App.get("/name/:name", function(req, res){
 });
 
 
-//console log  so it shows when request is given.
+//console log when request is made on the server 
 App.get("/", function(req, res){
-    console.log("Recieved request");
+    console.log("Got a request");
     res.json();
  });
 
 
  //listen on port 80 
 App.listen(port, function(){
-    console.log("Server is running");
+    console.log("server running");
    } 
-
 );
