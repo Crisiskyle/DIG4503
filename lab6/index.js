@@ -6,6 +6,8 @@ const chalk = require("chalk");
 const cors = require("cors");
 
 App.use(cors());
+
+
 App.use("/",Express.static("client/build"));
 
 
