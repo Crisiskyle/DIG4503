@@ -27,7 +27,7 @@ import React from "react";
         render() {
             return(
                 <div>
-                    <h2>Pokemon Id</h2>
+                    <h2 className="change2">Pokemon Dex Number #</h2>
                     <form onSubmit={this.readScore}>
                         <input id="id" type="text" />
                         <button>Submit</button>

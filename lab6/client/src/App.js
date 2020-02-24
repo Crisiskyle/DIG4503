@@ -12,7 +12,7 @@ class App extends React.Component{
       <div>
       <IdSearch />
       <NameSearch />
-      <h2>Reporting</h2>
+      <h2>I CHOOSE YOU!</h2>
      <div id="reportingArea"></div>
     </div>
     );
