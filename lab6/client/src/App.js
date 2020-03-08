@@ -9,12 +9,14 @@ class App extends React.Component{
 
   render(){
     return(
-      <div>
+      
+      <div className="container">
       <IdSearch />
       <NameSearch />
-      <h2>I CHOOSE YOU!</h2>
+      <h2>I CHOOSE YOU</h2>
      <div id="reportingArea"></div>
     </div>
+    
     );
   }
 }

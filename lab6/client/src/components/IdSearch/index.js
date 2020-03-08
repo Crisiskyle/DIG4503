@@ -26,11 +26,14 @@ import React from "react";
 
         render() {
             return(
-                <div>
+               
+                <div className="container">
+
                     <h2 className="change2">Pokemon Dex Number #</h2>
                     <form onSubmit={this.readScore}>
                         <input id="id" type="text" />
                         <button>Submit</button>
+
                     </form>
                 </div>
                 );
