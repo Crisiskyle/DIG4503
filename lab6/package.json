@@ -1,7 +1,7 @@
 {
   "name": "lab6",
   "version": "1.0.0",
-  "description": "",
+  "description": "ye",
   "main": "index.js",
   "scripts": {
     "build": "cd client && npm run start",
@@ -18,5 +18,13 @@
     "json-pokemon": "^1.0.0",
     "nodemon": "^2.0.2",
     "save": "^2.4.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "yes"
+  ]
 }

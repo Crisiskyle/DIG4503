@@ -36,26 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.Change 
-{
-color:red;
-
-
-  
-}
-.change2{
-  color:Gold;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-}
-.container{
-  background-image: url(GoldNsilver.jpeg);
-  margin: auto;
-  width: 50%;
-  border: 3px solid black;
-  padding: 10px;
-    -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black;
-  color:silver;
-}
