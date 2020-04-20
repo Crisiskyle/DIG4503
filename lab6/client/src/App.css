@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 .App {
   text-align: center;
 }
@@ -39,14 +41,35 @@
 
 .Change 
 {
-color:red;
+color:Silver;
+margin: auto;
+width: 50%;
+border: 5px solid black;
+-webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+padding: 10px;
+font-family: 'Press Start 2P', cursive;
 
 
   
 }
 .change2{
-  color:blue;
+  color:Gold;
 }
+
 .container{
-  background-image: url(/public/GoldNsilver.jpeg);
+  background: url("GoldNsilver.jpeg");
+  margin: auto;
+  width: 50%;
+  border: 5px solid black;
+  -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+  padding: 10px;
+  color:White;
+  font-family: 'Press Start 2P', cursive;
+
+}
+h2.{
+
+  font-size: 20px;
 }

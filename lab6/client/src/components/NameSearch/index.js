@@ -27,8 +27,8 @@ import React from "react";
         render() {
             return(
             
-                <div>
-                    <h2 className="Change">Pokemon Name</h2>
+                <div class="Change">
+                    <h2 className="Container">Pokemon Name</h2>
                     <form onSubmit={this.readName}>
                         <input id="name" type="text" />
                         <button>Submit</button>

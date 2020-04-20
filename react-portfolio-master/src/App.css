@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Rubik:wght@700&display=swap');
+
+
+.header-color {
+  background: url("Artboard.jpg");
+}
+
+.landing-grid {
+  background: url("Artboard.jpg");
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Rubik', sans-serif;
+}
+
+.contact-grid p {
+font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+.mdl-cell--4-col{
+  background: url("Artboard.jpg"),
+
+}
+.mdl-grid{
+
+  background: url("Artboard.jpg"),
+}
+.mdl-cell--8-col{
+
+  background-color: #4E4F4A;
+
+}
+.mdl-layout__content{
+
+  background: url("Artboard.jpg");
+
+}
+.mdl-layout__header-row{
+  background-color: #52B4FF;
+
+
+
+
+}
+.mdl-navigation__link{
+  font-family: 'Rubik', sans-serif;
+}
+.h2{
+
+  font-family: 'Dancing Script', cursive;
+}
+.mdl-card__actions{
+ 
+}
+.mdl-cell--6-col{
+  background: url("artboard2.png");
+}
+
+.p6{
+  font-family: 'Rubik', sans-serif;
+  
+}

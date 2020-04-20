@@ -18,7 +18,8 @@ class App extends React.Component {
                   </p>
                   <div className={styles.nav}>
                   <Link href = "/id"><a className={styles.link}>Search by Id</a></Link>
-                    <Link href = "/name"><a  className={styles.link}>Search by Name</a></Link>
+                    <Link href = "/name"><a  className={styles.link}>Searc
+                    h by Name</a></Link>
                     <Link href = "/type"><a  className={styles.link}>Search by Type</a></Link>
                   </div>
               </div>
