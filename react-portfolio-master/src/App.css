@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header-color {
   background: #833ab4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
@@ -8,6 +9,19 @@
   background: #833ab4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+=======
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Rubik:wght@700&display=swap');
+
+
+.header-color {
+  background: url("Artboard.jpg");
+}
+
+.landing-grid {
+  background: url("Artboard.jpg");
+>>>>>>> 7f926778e2a899a823ef02abe27ef2563d903a0b
   text-align: center;
   position: fixed;
   top: 0;
@@ -44,16 +58,28 @@
   width: 80%;
   height: 550px;
   background: white;
+<<<<<<< HEAD
   color: black;
+=======
+  color: white;
+>>>>>>> 7f926778e2a899a823ef02abe27ef2563d903a0b
   margin-bottom: 20px;
 }
 
 .contact-grid h2 {
+<<<<<<< HEAD
   font-family: 'Anton', sans-serif;
 }
 
 .contact-grid p {
   font-family: 'Oxygen', sans-serif;
+=======
+  font-family: 'Rubik', sans-serif;
+}
+
+.contact-grid p {
+font-family: 'Rubik', sans-serif;
+>>>>>>> 7f926778e2a899a823ef02abe27ef2563d903a0b
   font-weight: bold;
 }
 
@@ -114,3 +140,49 @@
   font-size: 5em;
   padding: 8px;
 }
+<<<<<<< HEAD
+=======
+.mdl-cell--4-col{
+  background: url("Artboard.jpg"),
+
+}
+.mdl-grid{
+
+  background: url("Artboard.jpg"),
+}
+.mdl-cell--8-col{
+
+  background-color: #4E4F4A;
+
+}
+.mdl-layout__content{
+
+  background: url("Artboard.jpg");
+
+}
+.mdl-layout__header-row{
+  background-color: #52B4FF;
+
+
+
+
+}
+.mdl-navigation__link{
+  font-family: 'Rubik', sans-serif;
+}
+.h2{
+
+  font-family: 'Dancing Script', cursive;
+}
+.mdl-card__actions{
+ 
+}
+.mdl-cell--6-col{
+  background: url("artboard2.png");
+}
+
+.p6{
+  font-family: 'Rubik', sans-serif;
+  
+}
+>>>>>>> 7f926778e2a899a823ef02abe27ef2563d903a0b
